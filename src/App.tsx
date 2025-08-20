@@ -21,13 +21,11 @@ import {
   ChevronUp,
 } from "lucide-react";
 
-
-
-const BASE = import.meta.env.BASE_URL;
+import avatar from "./assets/Sayed_Mahmud.jpg";
+import cvFile from "./assets/Sayed_Mahmud_CV.pdf";
 
 const profile = {
-  name: "Sayed Mahmud",
-  photo: `${BASE}Sayed_Mahmud.jpg`,          
+  name: "Sayed Mahmud",        
   title: "Metamaterials Researcher • QA Engineer • ETE (IIUC)",
   location: "Mirpur 1, Dhaka, Bangladesh",
   email: "sayedmahamudsijann@gmail.com",
@@ -40,7 +38,12 @@ const profile = {
     scholar: "https://scholar.google.com/citations?hl=en&user=ERA4SrsAAAAJ",
     researchgate: "https://www.researchgate.net/profile/Sayed-Sijan",
     github: "https://github.com/sayedmahamudsijan",
-    cvUrl: `${BASE}Sayed_Mahmud_CV.pdf`,    
+photo: avatar,
+links: {
+  // ...
+  cvUrl: cvFile,
+}
+  
   },
 };
 
