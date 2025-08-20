@@ -24,7 +24,7 @@ import {
 
 const profile = {
   name: "Sayed Mahmud",
-  photo: "/Sayed_Mahmud.jpg",
+  photo: "public/Sayed_Mahmud.jpg",
   title: "Metamaterials Researcher • QA Engineer • ETE (IIUC)",
   location: "Mirpur 1, Dhaka, Bangladesh",
   email: "sayedmahamudsijann@gmail.com",
@@ -37,7 +37,7 @@ const profile = {
     scholar: "https://scholar.google.com/citations?hl=en&user=ERA4SrsAAAAJ",
     researchgate: "https://www.researchgate.net/profile/Sayed-Sijan",
     github: "https://github.com/sayedmahamudsijan",
-    cvUrl: "/Sayed_Mahmud_CV.pdf", // Put this file in /public
+    cvUrl: "public/Sayed_Mahmud_CV.pdf",
   },
 };
 
