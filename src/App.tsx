@@ -21,16 +21,10 @@ import {
   ChevronUp,
 } from "lucide-react";
 
-// ———————————————————————————————————————————————
-// Sayed Mahmud – Interactive, Animated Portfolio (Single-file React)
-// Tech: React + TailwindCSS + Framer Motion + Lucide Icons
-// Drop this component into a Vite/Next.js/CRA project with Tailwind enabled.
-// ———————————————————————————————————————————————
 
-// ====== DATA (edit safely) ======
 const profile = {
   name: "Sayed Mahmud",
-  photo: "/Sayed_Mahmud.jpg", // Put this image in /public
+  photo: "/Sayed_Mahmud.jpg",
   title: "Metamaterials Researcher • QA Engineer • ETE (IIUC)",
   location: "Mirpur 1, Dhaka, Bangladesh",
   email: "sayedmahamudsijann@gmail.com",
@@ -103,9 +97,9 @@ type Publication = {
   type: PubType;
   title: string;
   venue: string;
-  doi?: string; // can be blank if not available
+  doi?: string; 
   authors: string;
-  abstract?: string; // optional, shown in “Show details”
+  abstract?: string; 
 };
 
 const publications: Publication[] = [
